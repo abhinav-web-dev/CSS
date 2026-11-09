@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+h1 {
+    /* background-color: rgb(192, 53, 53); */
+    font-size: 100px;
+}
+
+#wrapper {
+    /*  background: linear-gradient(to right, red,blue); */
+    /* background: linear-gradient(45deg, red,blue); */
+    /* background: radial-gradient(green,blue); */
+    /* background-image: conic-gradient(red, yellow, green); */
+   /*  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIl6tXhWadvk-2CADoBZy2UKudI5R_ljkhvJUGuEjxmiMNpKRBE6KDnxif&s=10);
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    /* background-position: bottom; */
+    /* background-size: contain; */
+  /*   background-size: cover;
+    height: 500px;
+ */ 
+ /* border-width: 10px;
+ border-style: solid;
+ border-color: aqua;
+ border:5px solid black ; */
+ /* border-top: 10px solid aqua; */
+ border: 5px solid black;
+ /* border-radius: 20px;
+ border-top-left-radius: 0%; */
+ /* padding: 40px; */
+ height: 500px;
+ margin: 40px;
+}
+p{
+    
+    /* padding: top,right,bottom,left; */
+    padding: 40px 40px 40px 40px;
+}
+.red-border{
+border: 1px solid red;
+}
+#daisy{
+    
+    text-align: center;
+    margin: auto;
+
+}
+#mahi{
+
+width: 100px;
+margin: auto;
+
+}
+span{
+    padding: 20px;
+    margin: auto;
+    height: 5000px;
+    width: 500px;
+}

@@ -1,0 +1,67 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+h1{
+    border: 1px solid rgb(218, 18, 18);
+    width: 800px;
+    height: 80px;
+}
+span{
+    display: inline-block;
+    border: 1px solid aqua;
+    width: 100px;
+    height: 40px;
+    /* margin-top: 20px; */
+    /* position: relative; */
+    background-color: aquamarine;
+    /* left: 70px;
+    bottom: 80px; */
+}
+.box{
+    display: inline-block;
+    border: 1px solid aqua;
+    width: 100px;
+    height: 40px;
+  /*   margin-top: 20px; */
+    /* position: relative; */
+   
+    text-align: center;
+    background-color: aquamarine;
+    /* left: 70px;
+    bottom: 80px; */
+}
+p{
+   display: inline-block;
+   background-color: red;
+   width: 70px;
+   height: 70px;
+   color: aliceblue;
+   font-size: 40px;
+   border-radius: 50%;
+   padding: 15px;
+   position: absolute;
+   top: 100px;
+   right: 1050px;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+#wrapper{
+     padding: 100px;
+    border: 20px solid black;
+    width: 100wh;
+    height: 100vh;
+    position: relative;
+}
+#box3{
+   /*  position: absolute; */
+   position: fixed;
+   /*  top: 0px;
+    left: 0px; */
+    bottom: 30px;
+}
+.cart{ 
+    position: relative;
+    border: 1px solid black;
+}

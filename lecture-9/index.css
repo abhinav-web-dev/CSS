@@ -1,0 +1,69 @@
+
+span{
+    color: brown;
+}
+
+h3{
+    color: blueviolet;
+}
+a,li{
+    color: bisque;
+}
+
+.hello2{
+    background-color: red;
+}
+.hello{
+    color: aqua;
+}
+#nihal{
+    color: brown;
+}
+h1{
+    color: chartreuse;
+}
+.rakhi{
+    color: crimson;
+}
+#rakh{
+    color: coral;
+}
+h1:hover{
+    background-color: blueviolet;
+}
+li:hover{
+    background-color: brown;
+}
+/* li:hover{
+    color: red;
+} */
+
+/* li:first-child {
+    color: green;
+} */
+
+/* li:last-child {
+    color: green;
+} */
+
+li:nth-child(2n + 3){
+    color: blueviolet;
+}
+
+
+h1::after {
+    content: " ji";
+}
+h1::first-letter {
+    color: blue;
+}
+
+/* h1::before {
+    content: "Hii ";
+} */
+
+h1::selection{
+    color: black;
+    background-color: red;
+}
+

@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+     transition-duration: 2s;
+    transition-property: all; 
+  /*   transition-timing-function: ease-in-out; */ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+    /*  transition-delay: 2s; */
+    /*  transition-timing-function: ease-out; */
+    /* transition-timing-function: ease-in; */
+    /* transform:translate(50px); */
+   /*  transform: translate(100px, 100px);*/
+   /* transform: scaleX(5); */
+   /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+   animation-name: sneha;
+   animation-duration: 3sec;
+   animation-fill-mode: forwards;
+} 
+
+@keyframes sneha {
+    from{
+   background-color: red;
+    }
+    to{
+    background-color: green;
+    }
+}
+
+.container:hover>div {
+    /*  background-color: blue; 
+   
+    width: 1300px; */
+    /* transform: translate(300px, 300px) scaleY(2); */
+}
+
+/* #linear{
+    transition-timing-function: linear;
+    background-color: brown;
+}
+#ease{
+    transition-timing-function: ease;
+    background-color:rgb(175, 155, 155);
+}
+#ease-in{
+    transition-timing-function: ease-in;
+    background-color:greenyellow;
+}
+#ease-out{
+    transition-timing-function: ease-out;
+    background-color:palevioletred;
+}
+#ease-in-out{
+    transition-timing-function: ease-in-out;
+    background-color:blueviolet;
+} */
+ #btn{
+    background-color: aqua;
+    padding: 20px 30px;
+    border-radius: 30px;
+    border: none;
+    margin: 50px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+    transform: skew(40deg);
+   
+ }
+ #btn:hover{
+    transform: translate(0px, -5px) scale(1.1) rotate(180deg);
+    /* transform: rotate(3deg); */
+    box-shadow:0 10px 10px rgba(121, 121, 121, 0.302) ;
+ }

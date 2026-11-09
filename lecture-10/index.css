@@ -1,0 +1,51 @@
+
+#aditya{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 4px red;
+}
+
+#adityanath{
+    font-size: smaller;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+p{
+    font-size: 30px;
+    font-weight: 900;
+}
+#adi{
+    font-style: italic;
+    font-variant: small-caps;
+    text-indent: 10px;
+    
+}
+#abhi{
+    text-align: center;
+    border: 1px solid red;
+}
+span{
+    text-align: center;
+    display: block;
+     border: 1px solid red;
+     text-decoration: underline dotted;
+     text-decoration: line-through;
+     text-decoration: overline;
+     text-decoration: underline wavy;
+     text-transform: capitalize;
+     text-transform: uppercase;
+     text-transform: lowercase;
+     
+}
+#color{
+    /* color: red; */
+    /* color: #b7a52e; */
+    /* color: rgb(189, 110, 110); */
+    /* color: rgba(255, 0, 72, 0.508); */
+
+    color: hsl(360, 100%, 50%);
+    color: hsla(360, 100%, 50% ,.5);
+    color: #ED4956;
+    /* background-color: rgb(253, 147, 147); */
+    
+    
+}
